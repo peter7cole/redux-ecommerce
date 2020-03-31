@@ -1,20 +1,20 @@
 const initialState = {
   candidates: [
-    { name: 'Tyler', votes: 0 },
-    { name: 'Cait', votes: 0 },
-    { name: 'Susanna', votes: 0 },
-    { name: 'Eugene', votes: 0 },
-    { name: 'Ada', votes: 0 },
-    { name: 'Andrew', votes: 0 },
-    { name: 'Peter', votes: 0 },
-    { name: 'Kevin', votes: 0 },
-    { name: 'Adrian', votes: 0 }
+    { name: 'Ice Axe', votes: 0 },
+    { name: 'Helmet', votes: 0 },
+    { name: 'Crampons', votes: 0 },
+    { name: 'Shell Jacket', votes: 0 },
+    { name: 'Shell Pants', votes: 0 },
+    { name: 'Boots', votes: 0 },
+    { name: 'Gaiters', votes: 0 },
+    { name: 'Glacier Glasses', votes: 0 },
+    { name: 'Snacks', votes: 0 }
   ],
   totalVotes: 0
 };
 
 // An action will look like this:
-// { type: 'INCREMENT', payload: 'Tyler' }
+// { type: 'INCREMENT', payload: 'Snacks' }
 
 const voteCounter = (state = initialState, action) => {
   let candidates, totalVotes;

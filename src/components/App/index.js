@@ -9,7 +9,7 @@ function App() {
   return (
     <Provider store={store}>
       <Container className="App">
-        <h1>Vote!</h1>
+        <h1>E-Commerce: Purchase Climbing Equipment</h1>
         <Voter />
       </Container>
     </Provider>
