@@ -1,6 +1,6 @@
 
 # Redux Storefront App
-__Author__ Peter Cole
+__Author__ Peter Cole  
 __Version__ 1.0.0 (Lab 36)
 
 ## App Description
