@@ -15,10 +15,10 @@ const Voter = props => {
       <Table variant="sm" striped bordered>
         <thead>
           <tr>
-            <th>Name</th>
-            <th>Votes</th>
-            <th>Vote For</th>
-            <th>Vote Against</th>
+            <th>Product</th>
+            <th>Amount</th>
+            <th>Increase Quantity</th>
+            <th>Decrease Qunatity</th>
           </tr>
         </thead>
         <tbody>
@@ -34,7 +34,7 @@ const Voter = props => {
                   }}
                 >
                   <span role="img" aria-label="Vote For">
-                    👍
+                    ⬆️
                   </span>
                 </Button>
               </td>
@@ -46,7 +46,7 @@ const Voter = props => {
                   }}
                 >
                   <span role="img" aria-label="Vote Against">
-                    👎
+                    ⬇️
                   </span>
                 </Button>
               </td>
